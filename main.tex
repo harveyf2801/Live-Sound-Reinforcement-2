@@ -1,0 +1,240 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Use the BCUReport class
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{BCUReport}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{enumitem}
+\usepackage{pdfpages}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Enter document details here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{Harvey Fretwell}
+\studentid{20113452}
+\title{Live Sound Reinforcement 2}
+\module{DIG6108}
+\course{Sound Engineering and Production}
+\date{\today}
+\wordcount{\todo{Need to add word count}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define acronyms
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acronyms are defined using the \newacronym command.
+%  * The first argument is the name of the acronym.
+%  * The second argument is the abbreviated form.
+%  * The third argument is the full form.
+\newacronym{spl}{SPL}{Sound Pressure Level}
+\newacronym{vap}{VAP}{Vehicle Access Point}
+\newacronym{pap}{PAP}{Pedestrian Access Point}
+\newacronym{foh}{FOH}{Front of House}
+\glsfindwidesttoplevelname % Leave this here so the list of acronyms looks nice
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin the document.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create title page.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Set initial page numbering to be lower case roman numerals and include the contents of the preamble.tex file.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Leave this here to use roman numeral page numbering for the preamble.
+\pagenumbering{roman}
+
+% The Abstract
+\begin{abstract}
+	In this comprehensive report, the planning and design of a large-scale outdoor music event is detailed. The project involves utilising tools such as ArrayCalc to create a bespoke speaker system tailored to the specific needs of a specified band. The careful selection of equipment is justified through thorough research, considering technical specifications and industry standards. The system integration is outlined with a focus on advanced audio networking protocols. Power requirements are calculated using excel, and environmentally friendly solutions and provided. The report culminates in a thorough risk assessment using Microsoft Word, ensuring all potential hazards are identified and addressed. Overall, this project not only delves into the technical intricacies of event planning but also prioritises a seamless and optimal experience for both performers and audiences.
+\end{abstract}
+
+% ToC and lists of figures/tables etc.
+\tableofcontents
+\listoffigures
+\listoftables
+\listofacronyms
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Set page numbering back to normal numbers and include each individual chapter.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Leave these here to change back to normal page numbering and add some nice headers to the pages.
+\pagenumbering{arabic}
+\pagestyle{headings}
+
+\input{introduction.tex}
+    
+\input{event.tex}
+
+\input{band_planning.tex}
+
+\input{system_design.tex}
+
+\input{heading3.tex}
+    
+\input{conclusion.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\bibliographystyle{bcuharvard}
+\bibliography{bibl}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendices
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{appendices}
+    \section{Speaker System}
+        \subsection{Amplifier Configurations}
+            \label{appendix:speaker_amp_config}
+            \includepdf[pages={-}, scale=1, landscape=true]{ArrayCalcAmpConfig.pdf}
+    
+        \subsection{Patching}
+            \label{appendix:speaker_patch}
+            \includepdf[pages={-}, scale=1, landscape=true]{ArrayCalcPatch.pdf}
+        
+        \subsection{Rigging}
+            \label{appendix:speaker_rigging}
+            \includepdf[pages={-}, scale=1, landscape=true]{ArrayCalcRigging.pdf}
+        
+            \subsection{Delay Times}
+            \label{appendix:speaker_delays}
+            \includepdf[pages={-}, scale=1, landscape=true]{ArrayCalcDelays.pdf}
+
+    % TEMPLATE HERE ONWARDS
+    %%%%%%%%%%%%%%%%%%%%%%%
+
+    Appendices, which should have short titles, are separate documents appended at the end of the report. Only include appendices if they are necessary to explain particular details to understand the main report. Generally, work in an appendix gains no marks directly.
+        
+    You should include a copy of your Gantt chart in the Appendix.
+        
+    A report should flow freely and be easy to read.  Figures, tables and images should support the content of the report not impinge on it. Do not place any information in the Appendices that can be located using a reference. The Appendix is not is not an opportunity to make a report look thicker.  Do not include information that was not referred to in the report. Appendices do not have an introduction and begin with Appendix A if there are more than one. Otherwise, if there is only one, this is called ‘Appendix’. Appendices may include:
+        
+    \begin{itemize}
+        \item Detailed statistics
+        \item Computer code
+        \item Large diagrams
+        \item Complex graphs and tables
+    \end{itemize}
+
+\section{Dissertation Style and Conventions}
+\label{app:Stuff}
+    The report should be written in your own words and should not contain extended extracts from the work of others. It is possible to use direct quotes, but these must not account for more than 10% of your report. Direct quotes should be identified by using inverted commas and should be appropriately referenced. Additional resources to assist you with referencing can be found on the intranet homepage under Info Links.
+        
+    The Faculty standard for degree project reports is similar to papers in technical/professional journals. Examples can be found by referring to journals in your field of study.
+    
+    Producing a readable account requires a logical structure to lead the reader from one discussion point to the next and through from one section/chapter to the next. It also requires that care be taken in spelling, punctuation and grammar. Any significant errors are liable to cause a reader to suspect that the content of the report may also be flawed.
+        
+    The language for the report should be straightforward jargon-free English, written in conventional style using the conventional third person past tense, and readable by someone familiar with the general subject area, although not an expert in the specific topic.
+        
+    The following conventions should be used, and care should be taken to maintain a consistent style throughout the document.
+ 
+\section{Referencing}
+\label{sec:Referencing}
+    \subsection{Citations}
+    \label{sec:Citations}
+    
+        \subsubsection{Bibtex}
+            This template uses bibtex to manage references. All your sources should be added to the \textit{bibl.bib} file. You can usually download the bibtex information for a paper/book from the publisher's website or google scholar.
+
+        \subsubsection{Citing References}
+            Once you've added sources to the biliography file you can use the \textit{\textbackslash citet} and \textit{\textbackslash citep} commands to cite them in your text:
+        
+            \begin{itemize}
+                \item \textit{\textbackslash citet} is for textual citations, e.g. ```\citet{hmgovernment2007} did some cracking work about fish''.
+                \item \textit{\textbackslash citep} is for citations in parentheses , e.g. ```Fish like to live in the water \citep{hmgovernment2007}''.
+            \end{itemize}
+    
+        \subsubsection{Inline Citations}
+            Every so often it is necessary to put the full details of a reference in the main body of the report. You can use the \textit{\textbackslash bibentry} command for that, e.g.:
+        
+            \bibentry{hmgovernment2007}
+
+    \subsection{Cross-References}
+    \label{sec:CrossReferences}
+        The cleveref package will sort out all your cross-referencing needs. It automatically knows what type of thing you are referencing and will format the reference accordingly.
+    
+        For example, we can refer to \Cref{sec:Citations} by using the \textit{\textbackslash Cref} command. We don't need to include the word ``Section'' because cleveref will do that for us. Be sure to use the capitalised version of \textit{\textbackslash Cref} so that the word Section, Figure, Table, etc. will be capitalised.
+    
+        We can also give cleveref a list of things and it will typeset them in a nice way, e.g. ``Some cool stuff is discussed in \Cref{sec:Citations,sec:Formatting,sec:FiguresAndTables}''.
+    
+        This also works for Figures, Tables, Appendices, etc. as you will see in \Cref{sec:FiguresAndTables} and \Cref{app:Stuff}.
+        
+\section{Formatting}
+\label{sec:Formatting}
+
+    \subsection{Acronyms}
+        To include a list of acronyms at the start of the document we can make use of the glossaries package. See the \textit{main.tex} file for how to define acronyms.
+    
+        The first time you use an acronym in your work you should use the expanded form followed by the abbreviation in brackets. This is done using the \textit{\textbackslash acrfull} command, e.g. \acrfull{spl}.
+    
+        Any subsequent use of the acronym can just be the abbreviated version via the \textit{\textbackslash acrshort} command, e.g. \acrshort{spl}.
+    
+        If you need to include the expanded version of the acronym at any point you can use the \textit{\textbackslash acrlong} command, e.g. \acrlong{spl}.
+    
+        The glossaries package can also be used for creating other lists of terms/notation which appear at the start of your document. Have a look at the package documentation for more info.
+
+    \begin{landscape}
+    \subsection{Landscape Pages}
+        You can include some landscape pages using the landscape environment. If you have any particularly wide tables or figures this is very useful.
+        \end{landscape}
+
+    \subsection{Notes and To Do}
+        Overleaf and the like have features for adding comments and notes to your latex source. I prefer to use things that will show up in the pdf as well as the source. For that I've defined the \textit{\textbackslash note} and \textit{\textbackslash todo} commands.
+    
+        \note{You can use the \textit{\textbackslash note} command to include notes which show up in red in the pdf.}
+        
+        \todo{You can use the \textit{\textbackslash todo} command to include notes which show up in blue in the pdf.}
+            
+\section{Figures and Tables}
+\label{sec:FiguresAndTables}
+
+    \subsection{Figures}
+    \label{sec:Figures}
+
+        The default settings when you plot some data in MATLAB are abysmal! See \Cref{fig:BadGraph} as an example.
+    
+        \begin{figure}[ht!]
+            \centering
+            \includegraphics[width=0.65\textwidth]{Images/a_graph.jpg}
+            \caption{A bad JPEG graph exported from MATLAB.}
+            \label{fig:BadGraph}
+        \end{figure}
+    
+        When you make plots in MATLAB make sure you export them as EPS images and that the text and lines are of sufficient size to be seen in the final document, as in \Cref{fig:BetterGraph}.
+
+        \begin{figure}[ht!]
+            \centering
+            \includegraphics[width=0.65\textwidth]{Images/a_graph.eps}
+            \caption{A better EPS graph exported from MATLAB.}
+            \label{fig:BetterGraph}
+        \end{figure}
+    
+    \subsection{Tables}
+    \label{sec:Tables}
+        You quite often need to limit the width of tables in your document. Latex provides the paragraph column type for this. But if you want things centre aligned you can use the additional column type provided by this template. See \Cref{tab:ColumnTypes} for a demonstration.
+    
+        \begin{table}[ht!]
+            \centering
+            \begin{tabular}{|p{4cm}|C{4cm}|}
+                \hline
+                The `p' column type produces a left aligned paragraph of the given width. & The `C' column type does the same but centre aligned. \tabularnewline
+                \hline
+            \end{tabular}
+            \caption{Defining the width of table columns.}
+            \label{tab:ColumnTypes}
+        \end{table}
+    
+        There are several other fancy packages for doing tables in latex, so have a look around for what you need.
+
+\end{appendices}
+
+\end{document}
