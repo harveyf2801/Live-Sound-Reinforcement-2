@@ -120,7 +120,7 @@
 }
 
 % Some commands to make notes and todo lists.
-\usepackage{xcolor}
+\usepackage{xcolor,colortbl}
 \newcommand{\note}[1]{{\color{red}#1}}
 \newcommand{\todo}[1]{{\color{blue}#1}}
 

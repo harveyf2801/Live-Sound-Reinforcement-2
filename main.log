@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.24)  3 JAN 2024 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.24)  10 JAN 2024 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/hfret/Downloads/Live Sound Report/main.tex"
-(c:/Users/hfret/Downloads/Live Sound Report/main.tex
+**c:/Users/hfret/Documents/GitHub/Projects/Live-Sound-Reinforcement-2/main.tex
+(c:/Users/hfret/Documents/GitHub/Projects/Live-Sound-Reinforcement-2/main.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (BCUReport.cls
@@ -531,29 +531,34 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+\everycr=\toks39
+\minrowclearance=\skip105
+\rownum=\count323
 )) (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count323
-\float@exts=\toks39
+\c@float@type=\count324
+\float@exts=\toks40
 \float@box=\box63
-\@float@everytoks=\toks40
+\@float@everytoks=\toks41
 \@floatcapt=\box64
 ) (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2023-11-14 v3.3.9 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count324
-\l__siunitx_number_exponent_fixed_int=\count325
-\l__siunitx_number_min_decimal_int=\count326
-\l__siunitx_number_min_integer_int=\count327
-\l__siunitx_number_round_precision_int=\count328
-\l__siunitx_number_lower_threshold_int=\count329
-\l__siunitx_number_upper_threshold_int=\count330
-\l__siunitx_number_group_first_int=\count331
-\l__siunitx_number_group_size_int=\count332
-\l__siunitx_number_group_minimum_int=\count333
+\l__siunitx_number_uncert_offset_int=\count325
+\l__siunitx_number_exponent_fixed_int=\count326
+\l__siunitx_number_min_decimal_int=\count327
+\l__siunitx_number_min_integer_int=\count328
+\l__siunitx_number_round_precision_int=\count329
+\l__siunitx_number_lower_threshold_int=\count330
+\l__siunitx_number_upper_threshold_int=\count331
+\l__siunitx_number_group_first_int=\count332
+\l__siunitx_number_group_size_int=\count333
+\l__siunitx_number_group_minimum_int=\count334
 \l__siunitx_angle_tmp_dim=\dimen191
 \l__siunitx_angle_marker_box=\box65
 \l__siunitx_angle_unit_box=\box66
-\l__siunitx_compound_count_int=\count334
+\l__siunitx_compound_count_int=\count335
  (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
@@ -567,31 +572,31 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages 
 \l__siunitx_table_after_box=\box72
 \l__siunitx_table_before_dim=\dimen194
 \l__siunitx_table_carry_dim=\dimen195
-\l__siunitx_unit_tmp_int=\count335
-\l__siunitx_unit_position_int=\count336
-\l__siunitx_unit_total_int=\count337
+\l__siunitx_unit_tmp_int=\count336
+\l__siunitx_unit_position_int=\count337
+\l__siunitx_unit_total_int=\count338
 ) (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip105
+\labelindent=\skip106
 \enit@outerparindent=\dimen196
-\enit@toks=\toks41
+\enit@toks=\toks42
 \enit@inbox=\box73
-\enit@count@id=\count338
-\enitdp@description=\count339
+\enit@count@id=\count339
+\enitdp@description=\count340
 ) (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
  (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count340
-\calc@Bcount=\count341
+\calc@Acount=\count341
+\calc@Bcount=\count342
 \calc@Adimen=\dimen197
 \calc@Bdimen=\dimen198
-\calc@Askip=\skip106
-\calc@Bskip=\skip107
+\calc@Askip=\skip107
+\calc@Bskip=\skip108
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count342
-\calc@Cskip=\skip108
+\calc@Ccount=\count343
+\calc@Cskip=\skip109
 ) (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \ESO@tempdima=\dimen199
@@ -603,41 +608,48 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
  (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count343
+\pdfpages@includegraphics@status=\count344
 \AM@pagebox=\box74
-\AM@global@opts=\toks42
-\AM@pagecnt=\count344
-\AM@toc@title=\toks43
-\AM@lof@heading=\toks44
-\c@AM@survey=\count345
+\AM@global@opts=\toks43
+\AM@pagecnt=\count345
+\AM@toc@title=\toks44
+\AM@lof@heading=\toks45
+\c@AM@survey=\count346
 \AM@templatesizebox=\box75
+) (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/multibib\multibib.sty
+Package: multibib 2008/12/10 v1.4 Multiple bibliographies for one document.
+\mb@biblabelwidth=\count347
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 40.
+\@auxoutbibs=\write6
+ (bibs.aux)
+\openout6 = `bibs.aux'.
+
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 53.
  (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count346
+\l__color_backend_stack_int=\count348
 \l__pdf_internal_box=\box76
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -673,19 +685,19 @@ LaTeX Font Info:    ... okay on input line 40.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 40.
-Package microtype Info: Applying patch `item' on input line 40.
-Package microtype Info: Applying patch `toc' on input line 40.
-Package microtype Info: Applying patch `eqnum' on input line 40.
-Package microtype Info: Applying patch `footnote' on input line 40.
-Package microtype Info: Applying patch `verbatim' on input line 40.
+LaTeX Info: Redefining \microtypecontext on input line 53.
+Package microtype Info: Applying patch `item' on input line 53.
+Package microtype Info: Applying patch `toc' on input line 53.
+Package microtype Info: Applying patch `eqnum' on input line 53.
+Package microtype Info: Applying patch `footnote' on input line 53.
+Package microtype Info: Applying patch `verbatim' on input line 53.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 40.
+LaTeX Info: Redefining \showhyphens on input line 53.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -695,17 +707,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count347
+\scratchcounter=\count349
 \scratchdimen=\dimen260
 \scratchbox=\box77
-\nofMPsegments=\count348
-\nofMParguments=\count349
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count350
+\nofMPsegments=\count350
+\nofMParguments=\count351
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count352
 \MPscratchDim=\dimen261
-\MPnumerator=\count351
-\makeMPintoPDFobject=\count352
-\everyMPtoPDFconversion=\toks46
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
+\everyMPtoPDFconversion=\toks47
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -716,26 +728,26 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package backref Info: ** backref set up for natbib ** on input line 40.
-Package hyperref Info: Link coloring ON on input line 40.
+Package backref Info: ** backref set up for natbib ** on input line 53.
+Package hyperref Info: Link coloring ON on input line 53.
  (main.out) (main.out)
-\@outlinefile=\write6
-\openout6 = `main.out'.
+\@outlinefile=\write7
+\openout7 = `main.out'.
 
  (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 40.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 53.
  (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
  (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-<Images/BCU.jpg, id=203, 966.61125pt x 889.3225pt>
+<Images/BCU.jpg, id=75, 966.61125pt x 889.3225pt>
 File: Images/BCU.jpg Graphic file (type jpg)
 <use Images/BCU.jpg>
-Package pdftex.def Info: Images/BCU.jpg  used on input line 45.
+Package pdftex.def Info: Images/BCU.jpg  used on input line 58.
 (pdftex.def)             Requested size: 72.55157pt x 66.75058pt.
  [1
 
@@ -743,27 +755,25 @@ Package pdftex.def Info: Images/BCU.jpg  used on input line 45.
 
 {C:/Users/hfret/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images/BCU.jpg>] [1
 
-] (main.toc (C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-) [2
+] (main.toc)
+\tf@toc=\write8
+\openout8 = `main.toc'.
 
-])
-\tf@toc=\write7
-\openout7 = `main.toc'.
+ [2
 
- [3] (main.lof)
-\tf@lof=\write8
-\openout8 = `main.lof'.
+] (main.lof)
+\tf@lof=\write9
+\openout9 = `main.lof'.
 
- [4
+ [3
 
 ] (main.lot)
-\tf@lot=\write9
-\openout9 = `main.lot'.
+\tf@lot=\write10
+\openout10 = `main.lot'.
 
 
 No file main.acr.
-[5
+[4
 
 ] (introduction.tex
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 9.
@@ -783,12 +793,12 @@ l.1 \section
 
 
 ]
-<Images/festival_maps.jpg, id=320, 555.9972pt x 293.898pt>
+<Images/festival_maps.jpg, id=108, 555.9972pt x 293.898pt>
 File: Images/festival_maps.jpg Graphic file (type jpg)
 <use Images/festival_maps.jpg>
 Package pdftex.def Info: Images/festival_maps.jpg  used on input line 6.
 (pdftex.def)             Requested size: 483.69687pt x 255.68918pt.
-<Images/festival_expand.jpg, id=321, 3011.25pt x 1335.99126pt>
+<Images/festival_expand.jpg, id=109, 3011.25pt x 1335.99126pt>
 File: Images/festival_expand.jpg Graphic file (type jpg)
 <use Images/festival_expand.jpg>
 Package pdftex.def Info: Images/festival_expand.jpg  used on input line 15.
@@ -796,13 +806,13 @@ Package pdftex.def Info: Images/festival_expand.jpg  used on input line 15.
  [2
 
  <./Images/festival_maps.jpg>]
-<Images/festival_vap_pap.jpg, id=326, 2572.61125pt x 2654.91875pt>
+<Images/festival_vap_pap.jpg, id=116, 2572.61125pt x 2654.91875pt>
 File: Images/festival_vap_pap.jpg Graphic file (type jpg)
 <use Images/festival_vap_pap.jpg>
 Package pdftex.def Info: Images/festival_vap_pap.jpg  used on input line 24.
 (pdftex.def)             Requested size: 483.69687pt x 499.17342pt.
  [3 <./Images/festival_expand.jpg>]
-<Images/festival_close_up.jpg, id=338, 839.38594pt x 740.7675pt>
+<Images/festival_close_up.jpg, id=129, 839.38594pt x 740.7675pt>
 File: Images/festival_close_up.jpg Graphic file (type jpg)
 <use Images/festival_close_up.jpg>
 Package pdftex.def Info: Images/festival_close_up.jpg  used on input line 33.
@@ -813,9 +823,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--45
  []
 
 
+Package natbib Warning: Citation `mmontgomery2018' on page 5 undefined on input line 45.
+
+(C:\Users\hfret\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+
+Package natbib Warning: Citation `hmgovernment2007' on page 5 undefined on input line 55.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\OT1/cmss/m/n/12 (+20) Vendor
  []
+
+
+Package natbib Warning: Citation `jjones2023' on page 5 undefined on input line 111.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 114--114
@@ -828,8 +850,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--114
  []
 
 
+Package natbib Warning: Citation `sja2023' on page 5 undefined on input line 115.
+
+
+Package natbib Warning: Citation `nhs-ambulance-specs' on page 5 undefined on input line 115.
+
+
+Package natbib Warning: Citation `hmas-festivals' on page 5 undefined on input line 129.
+
+
+Package natbib Warning: Citation `lsharp2023' on page 5 undefined on input line 133.
+
+
+Package natbib Warning: Citation `andyloos2015' on page 5 undefined on input line 133.
+
+
+Package natbib Warning: Citation `aawbi2019' on page 5 undefined on input line 141.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 160--160
-[]|\OT1/cmss/m/n/12 (+20) FOH
+[]|[][][]\OT1/cmss/m/n/12 (+20) FOH[][]
  []
 
 
@@ -847,207 +887,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--160
 \OT1/cmss/m/n/12 (+20) stage
  []
 
-[5 <./Images/festival_close_up.jpg>] [6] [7] [8] [9]) (band_planning.tex [10]) (system_design.tex [11
 
-]
-Overfull \hbox (26.16142pt too wide) in alignment at lines 12--20
- [] [] [] [] [] [] 
- []
+Package natbib Warning: Citation `westminster2023' on page 5 undefined on input line 165.
+
+[5 <./Images/festival_close_up.jpg>] [6] [7] [8]
+
+Package natbib Warning: Citation `rmbrecht2023' on page 9 undefined on input line 174.
 
 
-Overfull \hbox (26.16142pt too wide) in alignment at lines 20--22
- [] [] [] [] [] [] 
- []
+Package natbib Warning: Citation `hse-event-safety-noise' on page 9 undefined on input line 176.
 
-<Images/spl_plot_50hz_subs.png, id=423, 867.24pt x 578.16pt>
-File: Images/spl_plot_50hz_subs.png Graphic file (type png)
-<use Images/spl_plot_50hz_subs.png>
-Package pdftex.def Info: Images/spl_plot_50hz_subs.png  used on input line 25.
-(pdftex.def)             Requested size: 241.84843pt x 161.23087pt.
-<Images/spl_plot_100hz_subs.png, id=424, 867.24pt x 578.16pt>
-File: Images/spl_plot_100hz_subs.png Graphic file (type png)
-<use Images/spl_plot_100hz_subs.png>
-Package pdftex.def Info: Images/spl_plot_100hz_subs.png  used on input line 26.
-(pdftex.def)             Requested size: 241.84843pt x 161.23087pt.
-<Images/spl_plot_50hz_all.png, id=425, 867.24pt x 578.16pt>
-File: Images/spl_plot_50hz_all.png Graphic file (type png)
-<use Images/spl_plot_50hz_all.png>
-Package pdftex.def Info: Images/spl_plot_50hz_all.png  used on input line 28.
-(pdftex.def)             Requested size: 241.84843pt x 161.23087pt.
-<Images/spl_plot_100hz_all.png, id=426, 867.24pt x 578.16pt>
-File: Images/spl_plot_100hz_all.png Graphic file (type png)
-<use Images/spl_plot_100hz_all.png>
-Package pdftex.def Info: Images/spl_plot_100hz_all.png  used on input line 29.
-(pdftex.def)             Requested size: 241.84843pt x 161.23087pt.
-<Images/spl_plot_500hz.png, id=427, 867.24pt x 578.16pt>
-File: Images/spl_plot_500hz.png Graphic file (type png)
-<use Images/spl_plot_500hz.png>
-Package pdftex.def Info: Images/spl_plot_500hz.png  used on input line 30.
-(pdftex.def)             Requested size: 241.84843pt x 161.23087pt.
-<Images/spl_plot_1khz.png, id=428, 867.24pt x 578.16pt>
-File: Images/spl_plot_1khz.png Graphic file (type png)
-<use Images/spl_plot_1khz.png>
-Package pdftex.def Info: Images/spl_plot_1khz.png  used on input line 31.
-(pdftex.def)             Requested size: 241.84843pt x 161.23087pt.
-<Images/spl_plot_2khz.png, id=429, 867.24pt x 578.16pt>
-File: Images/spl_plot_2khz.png Graphic file (type png)
-<use Images/spl_plot_2khz.png>
-Package pdftex.def Info: Images/spl_plot_2khz.png  used on input line 32.
-(pdftex.def)             Requested size: 241.84843pt x 161.23087pt.
-<Images/spl_plot_5khz.png, id=430, 867.24pt x 578.16pt>
-File: Images/spl_plot_5khz.png Graphic file (type png)
-<use Images/spl_plot_5khz.png>
-Package pdftex.def Info: Images/spl_plot_5khz.png  used on input line 33.
-(pdftex.def)             Requested size: 241.84843pt x 161.23087pt.
-<Images/spl_plot_10khz.png, id=431, 867.24pt x 578.16pt>
-File: Images/spl_plot_10khz.png Graphic file (type png)
-<use Images/spl_plot_10khz.png>
-Package pdftex.def Info: Images/spl_plot_10khz.png  used on input line 34.
-(pdftex.def)             Requested size: 241.84843pt x 161.23087pt.
-<Images/spl_plot_pink_none.png, id=432, 867.24pt x 578.16pt>
-File: Images/spl_plot_pink_none.png Graphic file (type png)
-<use Images/spl_plot_pink_none.png>
-Package pdftex.def Info: Images/spl_plot_pink_none.png  used on input line 35.
-(pdftex.def)             Requested size: 241.84843pt x 161.23087pt.
 
-Overfull \hbox (26.16142pt too wide) in alignment at lines 22--39
- [] [] [] [] [] [] 
- []
+Package natbib Warning: Citation `hse2005' on page 9 undefined on input line 176.
+
+
+Package natbib Warning: Citation `rmbrecht2023' on page 9 undefined on input line 176.
+
+
+Package natbib Warning: Citation `hse-event-safety-noise' on page 9 undefined on input line 178.
+
+) (band_planning.tex [9]
+
+LaTeX Warning: Reference `appendix:patch_sheet' on page 10 undefined on input line 28.
+
+[10
+
+]) (system_design.tex [11]
+
+Package natbib Warning: Citation `wkc2023' on page 12 undefined on input line 7.
+
+
+Package natbib Warning: Citation `brown2010' on page 12 undefined on input line 21.
+
+
+Package natbib Warning: Citation `dstewart2016' on page 12 undefined on input line 21.
+
+
+Package natbib Warning: Citation `dmellor2006' on page 12 undefined on input line 21.
 
 [12
 
- <./Images/spl_plot_50hz_subs.png (PNG copy)> <./Images/spl_plot_100hz_subs.png (PNG copy)>] [13 <./Images/spl_plot_50hz_all.png (PNG copy)> <./Images/spl_plot_100hz_all.png (PNG copy)> <./Images/spl_plot_500hz.png (PNG copy)> <./Images/spl_plot_1khz.png (PNG copy)>] [14 <./Images/spl_plot_2khz.png (PNG copy)> <./Images/spl_plot_5khz.png (PNG copy)> <./Images/spl_plot_10khz.png (PNG copy)> <./Images/spl_plot_pink_none.png (PNG copy)>] [15] [16] [17]
-Runaway argument?
-{\}, X=0$. These may differ to the ArrayCalc times as phase is also c\ETC.
-system_design.tex:182: Paragraph ended before \SI  was complete.
-<to be read again> 
-                   \par 
-l.182 
+]
+
+Package natbib Warning: Citation `jberryman2010' on page 13 undefined on input line 40.
+
+[13]
+<Images/full_system.png, id=227, 568.2831pt x 421.575pt>
+File: Images/full_system.png Graphic file (type png)
+<use Images/full_system.png>
+Package pdftex.def Info: Images/full_system.png  used on input line 66.
+(pdftex.def)             Requested size: 483.69687pt x 358.82289pt.
+
+
+LaTeX Warning: Reference `appendix:speaker_parts' on page 14 undefined on input line 72.
+
+
+LaTeX Warning: Reference `appendix:speaker_rigging' on page 14 undefined on input line 75.
+
+[14 <./Images/full_system.png>]
+
+Package natbib Warning: Citation `cramer1993' on page 15 undefined on input line 96.
+
+[15]
+
+Package natbib Warning: Citation `cramer1993' on page 16 undefined on input line 113.
+
+
+Package natbib Warning: Citation `rasmussen1997' on page 16 undefined on input line 135.
+
+
+Package natbib Warning: Citation `cramer1993' on page 16 undefined on input line 136.
+
+
+Package natbib Warning: Citation `cramer1993' on page 16 undefined on input line 139.
+
+
+Package natbib Warning: Citation `worldweatheronline2023' on page 16 undefined on input line 142.
+
+
+LaTeX Warning: Reference `tab:delay_times' on page 16 undefined on input line 144.
+
+
+LaTeX Warning: Reference `fig:delay_alignment' on page 16 undefined on input line 144.
+
+[16
+system_design.tex:145: pdfTeX error (font expansion): auto expansion is only possible with scalable fonts.
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.145 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
 
-system_design.tex:182: Missing $ inserted.
-<inserted text> 
-                $
-l.182 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-system_design.tex:193: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.193 ...}} & \multicolumn{1}{l|}{\SI{6.20}{\ms}}}
-                                                   \\ \hline
-I'm guessing that you meant to end an alignment here.
-
-system_design.tex:193: Misplaced \cr.
-\reserved@c ->\ifnum 0=`{}\fi \cr 
-                                  
-l.193 ...icolumn{1}{l|}{\SI{6.20}{\ms}}} \\ \hline
-                                                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-system_design.tex:193: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.193 ...icolumn{1}{l|}{\SI{6.20}{\ms}}} \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-system_design.tex:194: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.194             \multicolumn
-                              {1}{|l|}{Sub} & \multicolumn{1}{l|}{\SI{0}{\me...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-system_design.tex:194: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.194             \multicolumn
-                              {1}{|l|}{Sub} & \multicolumn{1}{l|}{\SI{0}{\me...
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-system_design.tex:194: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.194             \multicolumn
-                              {1}{|l|}{Sub} & \multicolumn{1}{l|}{\SI{0}{\me...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-system_design.tex:194: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.194             \multicolumn
-                              {1}{|l|}{Sub} & \multicolumn{1}{l|}{\SI{0}{\me...
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-system_design.tex:194: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.194             \multicolumn
-                              {1}{|l|}{Sub} & \multicolumn{1}{l|}{\SI{0}{\me...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-system_design.tex:194: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.194             \multicolumn
-                              {1}{|l|}{Sub} & \multicolumn{1}{l|}{\SI{0}{\me...
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-system_design.tex:194: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.194             \multicolumn
-                              {1}{|l|}{Sub} & \multicolumn{1}{l|}{\SI{0}{\me...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-system_design.tex:194: Misplaced \span.
-\sp@n ->\span 
-              \omit \advance \@multicnt \m@ne 
-l.194             \multicolumn
-                              {1}{|l|}{Sub} & \multicolumn{1}{l|}{\SI{0}{\me...
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-system_design.tex:194: Misplaced \omit.
-\sp@n ->\span \omit 
-                    \advance \@multicnt \m@ne 
-l.194             \multicolumn
-                              {1}{|l|}{Sub} & \multicolumn{1}{l|}{\SI{0}{\me...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-system_design.tex:194: Leaders not followed by proper glue.
-<to be read again> 
-                   \hfill 
-l.194             \multicolumn
-                              {1}{|l|}{Sub} & \multicolumn{1}{l|}{\
+ 
+Here is how much of TeX's memory you used:
+ 26149 strings out of 475248
+ 494779 string characters out of 5757812
+ 1949785 words of memory out of 5000000
+ 47084 multiletter control sequences out of 15000+600000
+ 570556 words of font info for 142 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 109i,16n,107p,2425b,1031s stack positions out of 10000i,1000n,20000p,200000b,200000s
+system_design.tex:145:  ==> Fatal error occurred, no output PDF file produced!
