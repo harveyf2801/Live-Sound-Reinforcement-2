@@ -1,21 +1,21 @@
 # Fdb version 4
-["bibtex bibs"] 1704908124.05848 "bibs.aux" "bibs.bbl" "bibs" 1704908270.66818 0
+["bibtex bibs"] 1704908124.05848 "bibs.aux" "bibs.bbl" "bibs" 1704908492.49 0
   "./bcuharvard.bst" 1704903049 32237 88387b771af645bb32f0d23e5724e9ef ""
   "./bibliography.bib" 1704904134 5124 9b14f43d1372d44e7efd40716b95192d ""
-  "bibs.aux" 1704908268 1084 b49bf5f0719250b191e772b3746113dc "pdflatex"
+  "bibs.aux" 1704908488 1084 b49bf5f0719250b191e772b3746113dc "pdflatex"
   (generated)
   "bibs.bbl"
   "bibs.blg"
   (rewritten before read)
-["bibtex main"] 1704908123.61191 "main.aux" "main.bbl" "main" 1704908270.66668 0
+["bibtex main"] 1704908123.61191 "main.aux" "main.bbl" "main" 1704908492.48791 0
   "./bcuharvard.bst" 1704903049 32237 88387b771af645bb32f0d23e5724e9ef ""
   "./references.bib" 1704904147 11680 7016b7ce2d496af8a14b0c2bd767e468 ""
-  "main.aux" 1704908268 28258 a4c622bc1ea56e659ac4fa023132f732 "pdflatex"
+  "main.aux" 1704908488 28258 a4c622bc1ea56e659ac4fa023132f732 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1704908261.8255 "c:/Users/hfret/Documents/GitHub/Projects/Live-Sound-Reinforcement-2/main.tex" "main.pdf" "main" 1704908270.66928 0
+["pdflatex"] 1704908480.03659 "c:/Users/hfret/Documents/GitHub/Projects/Live-Sound-Reinforcement-2/main.tex" "main.pdf" "main" 1704908492.49148 0
   "ArrayCalcAmpConfig.pdf" 1704903050 434964 d87763cd326a9a232d49c129b159200c ""
   "ArrayCalcDelays.pdf" 1704903050 403157 1368113a43b40944f38628e5a7740b56 ""
   "ArrayCalcParts.pdf" 1704903050 485042 8514f52c54942a47b61f4b82d96c6982 ""
@@ -219,21 +219,21 @@
   "PatchSheet.pdf" 1704903050 459960 10f2fd9f1b7ccd69bbdc884b51e4dfb3 ""
   "RiskAssessment.pdf" 1704903051 164879 cdbbc29b1350925c1c2761f3b4da35de ""
   "band_planning.tex" 1704903049 3507 f7a514c4e650c382f02bf7cecaa31a70 ""
-  "bibs.aux" 1704908268 1084 b49bf5f0719250b191e772b3746113dc "pdflatex"
+  "bibs.aux" 1704908488 1084 b49bf5f0719250b191e772b3746113dc "pdflatex"
   "bibs.bbl" 1704908124 4182 4ba1d646ea8fc1fa76f1631c5d87e108 "bibtex bibs"
   "bibs.brf" 0 -1 0 ""
-  "c:/Users/hfret/Documents/GitHub/Projects/Live-Sound-Reinforcement-2/main.tex" 1704908080 6376 80ee14ca0fd488bfd42c3de2fe0d1763 ""
+  "c:/Users/hfret/Documents/GitHub/Projects/Live-Sound-Reinforcement-2/main.tex" 1704908478 6197 9fe0471b762f62dec4107231d8bb8ced ""
   "event.tex" 1704903049 12819 422159ccd097ed4d79b6c2c82c45d9ba ""
   "introduction.tex" 1704903049 1782 87e4a6d02b57ee62771ca916c599fe57 ""
   "main.acr" 0 -1 0 ""
-  "main.aux" 1704908268 28258 a4c622bc1ea56e659ac4fa023132f732 "pdflatex"
+  "main.aux" 1704908488 28258 a4c622bc1ea56e659ac4fa023132f732 "pdflatex"
   "main.bbl" 1704908123 10256 96794b39fc600e0f9db09354bf26d5f9 "bibtex main"
-  "main.brf" 1704908268 2350 5915094da74173de225215ed73dda642 "pdflatex"
-  "main.lof" 1704908268 1835 f471130db2d11ed4aa06ec44bea526ea "pdflatex"
-  "main.lot" 1704908268 2058 9a41f01ad7ff6a44f00970b131a41f2e "pdflatex"
-  "main.out" 1704908268 5345 4892ac225cba1565c68f8d8a266551df "pdflatex"
-  "main.tex" 1704908080 6376 80ee14ca0fd488bfd42c3de2fe0d1763 ""
-  "main.toc" 1704908268 3405 4e7f7f9fbe6638a8f8d290d697b64d7b "pdflatex"
+  "main.brf" 1704908488 2350 5915094da74173de225215ed73dda642 "pdflatex"
+  "main.lof" 1704908488 1835 f471130db2d11ed4aa06ec44bea526ea "pdflatex"
+  "main.lot" 1704908488 2058 9a41f01ad7ff6a44f00970b131a41f2e "pdflatex"
+  "main.out" 1704908488 5345 4892ac225cba1565c68f8d8a266551df "pdflatex"
+  "main.tex" 1704908478 6197 9fe0471b762f62dec4107231d8bb8ced ""
+  "main.toc" 1704908488 3405 4e7f7f9fbe6638a8f8d290d697b64d7b "pdflatex"
   "power_requirements.tex" 1704903050 1863 193ea4a754a96268c2b4fbcc2bc88ffb ""
   "system_design.tex" 1704903050 84150 0491d62d86cbaa1ecd68c3c0a96d7d80 ""
   (generated)
