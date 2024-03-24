@@ -114,8 +114,9 @@
 }
 
 % Glossaries
-\usepackage[acronym, toc]{glossaries}
-\makeglossaries
+%\usepackage[acronym, nonumberlist, toc]{glossaries}
+%\makeglossaries
+\usepackage[automake, acronym, nonumberlist]{glossaries-extra}
 
 % Cross-referencing
 \usepackage{cleveref} % Simple cross-referencing for sections, figures, etc.

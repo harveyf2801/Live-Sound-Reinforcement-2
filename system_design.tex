@@ -1,10 +1,10 @@
 \section{System Design}   
-    The festival prioritises a minimum \acrshort{spl} of \SI{96}{\decibel} at \acrshort{foh} for optimal mixing while actively addressing noise pollution concerns in nearby areas. Ensuring even coverage across the venue is essential, and strict adherence to regulations is maintained.
+    The festival prioritises a minimum \gls{spl} of \SI{96}{\decibel} at \gls{foh} for optimal mixing while actively addressing noise pollution concerns in nearby areas. Ensuring even coverage across the venue is essential, and strict adherence to regulations is maintained.
 
-    The design incorporates specified d\&b Audiotechnik products, covering calculations for delay times, rigging, power requirements, amp configurations, and routing. Relevant \acrshort{spl} maps for the festival area are also provided, utilising software such as d\&b ArrayCalc, d\&b NoizCalc, and d\&b R1. Additionally, SubAligner and Excel were employed for calculating delay compensations and power consumption.
+    The design incorporates specified d\&b Audiotechnik products, covering calculations for delay times, rigging, power requirements, amp configurations, and routing. Relevant \gls{spl} maps for the festival area are also provided, utilising software such as d\&b ArrayCalc, d\&b NoizCalc, and d\&b R1. Additionally, SubAligner and Excel were employed for calculating delay compensations and power consumption.
     
     \subsection{System Overview}
-    The \acrfull{isl} \eqref{eq:inverse_square_law} can be used to estimate the \acrshort{spl} by considering the uniform emission of sound from a point source in all directions \citep{wkc2023}.
+    The \gls{isl} \eqref{eq:inverse_square_law} can be used to estimate the \gls{spl} by considering the uniform emission of sound from a point source in all directions \citep{wkc2023}.
 
     \begin{equation}\label{eq:inverse_square_law}
         Lp(R2) = Lp(R1) - 20 \cdot \log_{10}\left(\frac{R2}{R1}\right)
@@ -18,7 +18,7 @@
         \item $R2$ is the distance from the noise source to the second location.
     \end{itemize}
 
-    However, line arrays defeat the \acrshort{isl} with a \SI{-3}{\decibel} drop per distance doubling \citep{brown2010} \eqref{eq:modified_inverse_square_law} however, in a practical scenario this is not always the case, and only continues up to a certain distance \citep{dstewart2016}. A line array directs constructive interference to the center and induces destructive interference at the sides, enhancing projection towards the audience while minimising reflection from the floor and ceiling \citep{dmellor2006}.
+    However, line arrays defeat the \gls{isl} with a \SI{-3}{\decibel} drop per distance doubling \citep{brown2010} \eqref{eq:modified_inverse_square_law} however, in a practical scenario this is not always the case, and only continues up to a certain distance \citep{dstewart2016}. A line array directs constructive interference to the center and induces destructive interference at the sides, enhancing projection towards the audience while minimising reflection from the floor and ceiling \citep{dmellor2006}.
 
     \begin{equation}\label{eq:modified_inverse_square_law}
         Lp(R2) = Lp(R1) - 10 \cdot \log_{10}\left(\frac{R2}{R1}\right)
@@ -30,9 +30,9 @@
         \text{Total dB} = 10 \cdot \log_{10}\left(\sum_{i=1}^{n} 10^{(a_i/10)}\right)
     \end{equation}
 
-    Using this, 22 flown GSL12 speakers was calculated for the main array and 18 KSL12 speakers for the delay per side. As well as 12 SL-Subs on the ground for \acrshort{foh} and 4 flown KSL-Subs for the delay.
+    Using this, 22 flown GSL12 speakers was calculated for the main array and 18 KSL12 speakers for the delay per side. As well as 12 SL-Subs on the ground for \gls{foh} and 4 flown KSL-Subs for the delay.
     
-    ArrayCalc simplifies system optimisation by including a CUT button to eliminate lower frequencies, reducing interference with subs and improving amplifier efficiency. The tool also features \acrfull{hfa} for natural frequency response, 'line' and 'arc' options for speaker settings, and a \acrfull{cpl} attenuation function to address near field effects in straight array sections and Array Processing for advanced system tuning. All of which are explored in the system design.
+    ArrayCalc simplifies system optimisation by including a CUT button to eliminate lower frequencies, reducing interference with subs and improving amplifier efficiency. The tool also features \gls{hfa} for natural frequency response, 'line' and 'arc' options for speaker settings, and a \gls{cpl} attenuation function to address near field effects in straight array sections and Array Processing for advanced system tuning. All of which are explored in the system design.
 
     Subwoofers have cardioid and omni-directional patterns for directing low frequencies. Passive systems are suitable for larger venues, offering greater power and easy amplifier access when flown, unlike active subs which lack power. Therefore, passive systems are used in this design.
 
@@ -172,7 +172,7 @@
         All delay times are written in full at \ref{appendix:speaker_delays}.
         
     \subsubsection{SPL Mapping}
-     The \acrshort{spl} mapping of the system can be seen in Table \ref{tab:spl_mapping}; showing the highest, lowest, standard deviation and average \acrshort{spl}.
+     The \gls{spl} mapping of the system can be seen in Table \ref{tab:spl_mapping}; showing the highest, lowest, standard deviation and average \gls{spl}.
      
         \begin{longtable}[H]{|c|c|c|c|c|c|}
             \hline
@@ -204,7 +204,7 @@
         \end{longtable}
 
         \subsubsection{Monitors}
-            As regards to monitors, the band will use \acrshort{iem}s, however the requested sub side fills will require an additional 2 d\&b V-GSubs and a d\&b D20 Amplifier.
+            As regards to monitors, the band will use \gls{iem}s, however the requested sub side fills will require an additional 2 d\&b V-GSubs and a d\&b D20 Amplifier.
             
         \subsubsection{Design Considerations}            
             NoizCalc was used to calculate the noise pollution (Figure \ref{fig:noise_pollution}). This takes into account the temperature, humidity, altitude and obstacles such as greenery or structures. Although this may not be fully accurate and is variable depending upon meteorological conditions, it gives a good approximation.
@@ -222,7 +222,7 @@
         \subsubsection{Console}
             Various consoles were explored and after comparing the tech specs against the price ranges, the following consoles came out as the most appropriate for the festival at an affordable price range (baring in mind these prices are for buying outright, not hiring) \ref{tab:console_comparison}. Other consoles such as the Yamaha Rivage PM series and the DiGiCo Quantum series had more features but drastically increased in price.
             
-            The final console chosen was the DiGiCo SD12 for both \acrshort{foh} and Monitors as although the band specified DiGiCo SD10's, the SD12 is more expandable when using Dante and Waves, and the usability will be analogous. Features such as the extensive \acrfull{dsp}, high channel count, busses/matrices provides optimal flexibility for the engineers. 2 large touchscreens with 26 touch sensitive and motorised faders will increase usability. These desks also provide high quality audio with less than \SI{0.05}{\percent} \acrfull{thd} and up to 40-bit floating point processing. Having the expandability of Waves on the monitors will provide even extra \acrshort{dsp}.
+            The final console chosen was the DiGiCo SD12 for both \gls{foh} and Monitors as although the band specified DiGiCo SD10's, the SD12 is more expandable when using Dante and Waves, and the usability will be analogous. Features such as the extensive \gls{dsp}, high channel count, busses/matrices provides optimal flexibility for the engineers. 2 large touchscreens with 26 touch sensitive and motorised faders will increase usability. These desks also provide high quality audio with less than \SI{0.05}{\percent} \gls{thd} and up to 40-bit floating point processing. Having the expandability of Waves on the monitors will provide even extra \gls{dsp}.
 
             \begin{longtable}[H]{|p{3cm}|>{\columncolor[HTML]{9AFF99}}p{3.1cm}|>{\columncolor[HTML]{FFCCC9}}p{3.1cm}|>{\columncolor[HTML]{FFDDB4}}p{3.1cm}|>{\columncolor[HTML]{FFDDB4}}p{3.1cm}|}
                 \hline
@@ -287,14 +287,14 @@
             \end{longtable}
             
         \subsubsection{Monitors}
-            The band has requested L'acoustics SB28JKS28 as sub sidefills however, our system is using a d\&b audiotechnik system, therefore V-GSUBs have been substituted. A buttkicker will be provided for the drummer as it is a common preference to help feel the bass when using \acrshort{iem}s. All other monitors will be \acrshort{iem}s.
+            The band has requested L'acoustics SB28JKS28 as sub sidefills however, our system is using a d\&b audiotechnik system, therefore V-GSUBs have been substituted. A buttkicker will be provided for the drummer as it is a common preference to help feel the bass when using \gls{iem}s. All other monitors will be \gls{iem}s.
             
         \subsubsection{IEM}
-            Wireless microphones and \acrshort{iem}s, typically operate within specific radio frequency bands:
+            Wireless microphones and \gls{iem}s, typically operate within specific radio frequency bands:
 
             \begin{itemize}
-                \item \textbf{\acrfull{vhf}}: Frequencies between \SI{30}{\MHz} and \SI{300}{\MHz}. While \acrshort{vhf} was historically popular for wireless microphones, it has become less common due to its susceptibility to interference and limited available spectrum.
-                \item \textbf{\acrfull{uhf}}: Frequencies between \SI{300}{\MHz} and \SI{3}{\GHz}. \acrshort{uhf} is widely used in the professional audio industry for wireless microphones and \acrshort{iem}. It offers a larger available spectrum, which allows for more channels and better resistance to interference compared to \acrshort{vhf}.
+                \item \textbf{\gls{vhf}}: Frequencies between \SI{30}{\MHz} and \SI{300}{\MHz}. While \gls{vhf} was historically popular for wireless microphones, it has become less common due to its susceptibility to interference and limited available spectrum.
+                \item \textbf{\gls{uhf}}: Frequencies between \SI{300}{\MHz} and \SI{3}{\GHz}. \gls{uhf} is widely used in the professional audio industry for wireless microphones and \gls{iem}. It offers a larger available spectrum, which allows for more channels and better resistance to interference compared to \gls{vhf}.
             \end{itemize}
 
             \citep{shure2024}
@@ -378,7 +378,7 @@
                 \label{tab:frequency_band_licensing}
             \end{longtable}
 
-            After reviewing specifications and various online reviews, the top professional \acrshort{iem} transmitters were Shure P10T/PSM1000 and Sennheiser SR2050.
+            After reviewing specifications and various online reviews, the top professional \gls{iem} transmitters were Shure P10T/PSM1000 and Sennheiser SR2050.
             
             The SR2050 was chosen as it provides wide tuning bandwidths, touring-grade features, and wireless remote control via the WSM software (Table \ref{tab:iem_comparisons}). Table \ref{tab:iem_transmitter_freq_ranges} shows the various models and which frequency ranges they span. To provide minimal interference, the transmitters will span over a minimum of 2 bands i.e. Bw providing 10 channels with 72 different frequencies, spanning over GB and B bands.
             
@@ -944,7 +944,7 @@
             Using a signal engine such as the DN100 enables compatibility with dante and d\&b's en-space software. En-space can be used to enhance the auditory experience through boundary plane emulation technology \citep{ds100} used to emulate other outdoor venues. This unit can also be configured in redundancy mode within the Dante network.
 
         \subsubsection{Waves SoundGrid}
-            As the band specified they wanted to use Waves Soundgrid for \acrshort{dsp} on the monitors, a DMI-WAVES card will be provided for the desk along with a One-C Server to run SuperRack.
+            As the band specified they wanted to use Waves Soundgrid for \gls{dsp} on the monitors, a DMI-WAVES card will be provided for the desk along with a One-C Server to run SuperRack.
         
     \subsection{System Integration}
         As all of the equipment selected is Dante compatible, and includes redundancy with power and networking, the system should be highly reliable. To further enhance this, a redundant star network will be integrated (Figure \ref{fig:redundant_star_topology}) as other typologies can cause drastic disruptions if a device fails within the network (Figure \ref{fig:bad_topologies}).
@@ -963,7 +963,7 @@
             \label{fig:redundant_star_topology}
         \end{figure}
         
-        The system integration plan below shows the \acrshort{foh} connections on the left and the stage connections on the right (Figure \ref{fig:system_integration_plan}). iPads can also be used with a \acrfull{wap} to control either console remotely using the SD-Core 2 app.
+        The system integration plan below shows the \gls{foh} connections on the left and the stage connections on the right (Figure \ref{fig:system_integration_plan}). iPads can also be used with a \gls{wap} to control either console remotely using the SD-Core 2 app.
         
         \begin{figure}[H]
             \centering
@@ -1001,7 +1001,7 @@
                   One of the most popular protocols in the industry with low latency and high quality audio. Requires standard Ethernet cables. Integrates with AES67. Scalable for all applications with a complete networking solution. 'Plug and play' with automatic device discovery and master clock assignment. Provides audio, video and lighting / DMX control. Any L2 or IP network topology can be used. Integrates well with many products including d7b audiotechnik. &
                   Proprietary software which is expensive due to licensing and requires a few hours of training to understand the technology. Requires dedicated Dante enabled devices. \\ \hline
                 \textbf{SoundGrid} &
-                  Provides plugin processing, offload \acrshort{dsp} to remote servers. Integration with waves plugins. Compatible with most of the DiGiCo SD range. &
+                  Provides plugin processing, offload \gls{dsp} to remote servers. Integration with waves plugins. Compatible with most of the DiGiCo SD range. &
                   Proprietary software and hardware which is expensive as licensing is required for each server. Waves hardware is quite costly and not many companies provide waves as a standard networking protocol by default. Only allows for Star and daisy chain topologies. Only allows for 3 hops until higher latency starts to occur. \\ \hline
                 \textbf{MADI} &
                   Easy to setup and quite reliable and robust. Allows for long cable runs with little signal loss. Cost-effective and is used widely on various Soundcraft and DiGiCo products. &
@@ -1068,21 +1068,21 @@ Rigging                            & KSL Compression set                & £15* 
 Rigging                            & KSL-SUB Adapter frame              & £15*                          & 2                                  & £30    \\ \hline
 Rigging                            & V Flying frame                     & £15*                          & 2                                  & £30    \\ \hline
 \rowcolor[HTML]{EFEFEF} 
-\acrshort{iem} Transmitter Set     & Sennheiser SR2050                  & £3499                         & 5                                  & £17495 \\ \hline
+\gls{iem} Transmitter Set     & Sennheiser SR2050                  & £3499                         & 5                                  & £17495 \\ \hline
 \rowcolor[HTML]{EFEFEF} 
-\acrshort{iem} pack                & Sennheiser EM2050                  & -                             & 20 (4 per bundle)                  & -      \\ \hline
+\gls{iem} pack                & Sennheiser EM2050                  & -                             & 20 (4 per bundle)                  & -      \\ \hline
 \rowcolor[HTML]{EFEFEF} 
-\acrshort{iem} battery charger     & Sennheiser BA 2-way Charger        & £182                          & 2                                  & £364   \\ \hline
+\gls{iem} battery charger     & Sennheiser BA 2-way Charger        & £182                          & 2                                  & £364   \\ \hline
 \rowcolor[HTML]{EFEFEF} 
-\acrshort{iem} spare batteries     & Sennheiser BA 2015                 & £50                           & 8                                  & £400   \\ \hline
+\gls{iem} spare batteries     & Sennheiser BA 2015                 & £50                           & 8                                  & £400   \\ \hline
 \rowcolor[HTML]{EFEFEF} 
-\acrshort{iem} Antenna Combiner    & Shure PA821B                       & £3110                         & 2                                  & £6220  \\ \hline
+\gls{iem} Antenna Combiner    & Shure PA821B                       & £3110                         & 2                                  & £6220  \\ \hline
 \rowcolor[HTML]{EFEFEF} 
-\acrshort{iem} Antenna             & Sennheiser A5000                   & £829                          & 2                                  & £1658  \\ \hline
+\gls{iem} Antenna             & Sennheiser A5000                   & £829                          & 2                                  & £1658  \\ \hline
 \rowcolor[HTML]{EFEFEF} 
-\acrshort{iem} Antenna Cable       & \SI{5}{\metre} N-Type Cable        & £20                           & 2                                  & £40    \\ \hline
+\gls{iem} Antenna Cable       & \SI{5}{\metre} N-Type Cable        & £20                           & 2                                  & £40    \\ \hline
 \rowcolor[HTML]{EFEFEF} 
-\acrshort{iem} Antenna Cable       & \SI{10}{\metre} N-Type Cable       & £50                           & 2                                  & £100   \\ \hline
+\gls{iem} Antenna Cable       & \SI{10}{\metre} N-Type Cable       & £50                           & 2                                  & £100   \\ \hline
 Hardware                           & Limiter Empirical Labs EL7X Fatso  & £2449                         & 2                                  & £4898  \\ \hline
 Hardware                           & TC Electronic Reverb 4000          & £764                          & 2                                  & £1528  \\ \hline
 Hardware                           & Waves Maxx BCL Digital Compressor  & £1883                         & 1                                  & £1883  \\ \hline
@@ -1091,7 +1091,7 @@ Switch                             & Cisco SG350-10MP                   & £250 
 \rowcolor[HTML]{EFEFEF} 
 Switch                             & Cisco SG250-08                     & £108                          & 1                                  & £108   \\ \hline
 \rowcolor[HTML]{EFEFEF} 
-\acrshort{wap}                     & Cisco Catalyst 9100 \acrshort{wap} & £300                          & 2 (optional)                       & £600   \\ \hline
+\gls{wap}                     & Cisco Catalyst 9100 \gls{wap} & £300                          & 2 (optional)                       & £600   \\ \hline
 Tablet                             & iPad                               & £326                          & 2 (optional)                       & £652   \\ \hline
 Computer                           & MacBook Pro                        & £1699                         & 2 (+1 optional)                    & £5097  \\ \hline
 \rowcolor[HTML]{EFEFEF} 

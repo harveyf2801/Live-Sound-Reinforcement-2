@@ -23,22 +23,11 @@
 %  * The first argument is the name of the acronym.
 %  * The second argument is the abbreviated form.
 %  * The third argument is the full form.
-\newacronym{spl}{SPL}{Sound Pressure Level}
-\newacronym{vap}{VAP}{Vehicle Access Point}
-\newacronym{pap}{PAP}{Pedestrian Access Point}
-\newacronym{foh}{FOH}{Front of House}
-\newacronym{sr}{SR}{Stage Right}
-\newacronym{sl}{SL}{Stage Left}
-\newacronym{iem}{IEM}{In-Ear Monitors}
-\newacronym{isl}{ISL}{Inverse Square Law}
-\newacronym{hfa}{HFA}{High Frequency Attenuation}
-\newacronym{cpl}{CPL}{Coupling}
-\newacronym{wap}{WAP}{Wireless Access Point}
-\newacronym{vhf}{VHF}{Very High Frequency}
-\newacronym{uhf}{UHF}{Ultra High Frequency}
-\newacronym{thd}{THD}{Total Harmonic Distortion}
-\newacronym{dsp}{DSP}{Digital Signal Processing}
 \glsfindwidesttoplevelname % Leave this here so the list of acronyms looks nice
+\makeglossaries
+\setabbreviationstyle[acronym]{long-short}
+
+\loadglsentries{glossary}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Begin the document.
@@ -65,7 +54,7 @@
 \tableofcontents
 \listoffigures
 \listoftables
-\listofacronyms
+\printglossary[type=\acronymtype]
 \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
