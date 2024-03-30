@@ -11,4 +11,4 @@ Version: 2023
 
 ## Supporting Docs
 
-The patch sheet can be found at supporting docs can be found in the Docs directory of the project. This includes the patch sheet, risk assessment and array calc file.
+The supporting docs can be found in the Docs directory of the project. This includes the patch sheet, risk assessment and array calc file.
